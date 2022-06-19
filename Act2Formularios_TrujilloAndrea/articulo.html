@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargar Artículo</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="formulario">
+        <h1>Cargar Artículo</h1>
+        <form method="post" action="index.html">
+            <div>
+                <select id="subsistema">
+                    <option value="tipo de subsistema" selected>Tipo de Subsistema</option>
+                    <option value="tec">Universidad Tecnológica</option>
+                    <option value="pol">Universidad Politécnica</option>
+                    <option value="ins">Instituto Tecnológico</option>
+                  </select>
+            </div>
+            <br>
+            <div class="titart">
+                <input type="text" placeholder="Título Artículo">
+            </div>
+            <br>
+            <div class="autor">
+                <input type="text" placeholder="Autor">
+            </div>
+            <br>
+            <div>
+                <textarea name="message" rows="5" cols="30" placeholder="Breve Resumen del Artículo"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="file" id="myfile" name="myfile"><br><br>
+                <input type="submit" value="Cargar Archivo">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
